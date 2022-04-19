@@ -1,0 +1,41 @@
+/** @format */
+
+.container {
+  text-align: center;
+  padding-top: 150px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 70vw;
+  padding: 20px;
+  align-items: center;
+}
+.navback {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+}
+.navback button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background: rgb(36, 36, 36);
+  color: #fff;
+  margin-right: 5px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 70vw;
+  grid-gap: 10px;
+  margin: auto;
+}
+.card {
+  border-radius: 10px;
+  background-color: rgba(182, 182, 182, 0.46);
+}
